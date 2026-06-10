@@ -1,0 +1,88 @@
+* {
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(244, 212, 72);
+    padding: 20px;
+
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.caixa {
+    width: 1100px;
+    padding: 20px;
+    background-color: rgb(192, 191, 189);
+    border: 1px solid rgb(70, 68, 68);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    width: 100%;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(230, 241, 238);
+    color: rgb(77, 129, 175);
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+   transition: 0.5;
+   background-color: rgb(205, 211, 244);
+}
+
+input, select {
+    padding: 10px;
+}
+
+.plano {
+    display: flex;
+    gap: 10px;
+}
+
+.atividade {
+    display: flex;
+    gap: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(53, 89, 119);
+}
+
+.caixa img {
+    width: 200px; 
+    
+   }
+
+h1 {
+    text-align: center;
+    color:rgb(15, 16, 16);
+}
+
+textarea {
+    display: flex;
+    width: 1023px;
+    gap: 50px;
+}
